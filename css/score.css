@@ -1,0 +1,35 @@
+/*计分板样式*/
+#score{
+	padding: 0.1rem 14% 0.1rem 12.5%;
+	background-color: #CCC;
+	background-image: url(../img/border.png);
+	background-size: contain;
+	background-position: center;
+}
+#score>div{
+	height: 0.4rem;
+}
+#score>div:last-child{
+	text-align: right;
+}
+#score>div>p{
+	margin: 0px;
+	font-size: 0.2rem;
+	color: #FFF;
+	line-height: 0.2rem;
+}
+@font-face {
+    font-family: clock;
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/clock.ttf') format('truetype');
+}
+#score .sum{
+	letter-spacing: 0.05rem;
+	padding-left: 0.15rem;
+    font-family: clock;
+}
+#score>div:last-child>p.sum{
+	padding-right: 0.2rem;
+	padding-left: 0rem;
+}
